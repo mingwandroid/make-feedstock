@@ -14,11 +14,11 @@ source:
 build:
   number: 0
 
-requirements:  
+requirements:
   build:
-  - m2w64-toolchain   # [win]
+    - m2w64-toolchain  # [win]
   run:
-    - m2w64-gcc-libs  # [win]
+    - m2w64-gcc-libs   # [win]
 
 test:
   commands:
