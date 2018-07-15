@@ -13,6 +13,9 @@ source:
 
 build:
   number: 0
+  force_ignore_keys:    # [win]
+    - c_compiler        # [win]
+    - m2w64_c_compiler  # [unix]
 
 requirements:
   build:
