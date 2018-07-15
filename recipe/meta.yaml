@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   force_ignore_keys:    # [win]
     - c_compiler        # [win]
     - m2w64_c_compiler  # [unix]
