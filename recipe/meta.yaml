@@ -16,9 +16,8 @@ build:
 
 requirements:
   build:
-    - m2w64-toolchain  # [win]
-  run:
-    - m2w64-gcc-libs   # [win]
+    - {{ compiler("c") }}        # [unix]
+    - {{ compiler("m2w64_c") }}  # [win]
 
 test:
   commands:
