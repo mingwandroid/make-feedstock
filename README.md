@@ -14,14 +14,16 @@ Summary: GNU Make is a tool which controls the generation of executables and oth
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/make-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/make-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/make-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/make-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/make-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/make-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/make-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/make-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/make-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/make-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/make-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/make-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/make/badges/version.svg)](https://anaconda.org/conda-forge/make)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/make/badges/downloads.svg)](https://anaconda.org/conda-forge/make)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-make-green.svg)](https://anaconda.org/conda-forge/make) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/make.svg)](https://anaconda.org/conda-forge/make) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/make.svg)](https://anaconda.org/conda-forge/make) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/make.svg)](https://anaconda.org/conda-forge/make) |
 
 Installing make
 ===============

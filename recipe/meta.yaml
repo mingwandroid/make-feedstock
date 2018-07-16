@@ -12,13 +12,15 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
+  force_ignore_keys:    # [win]
+    - c_compiler        # [win]
+    - m2w64_c_compiler  # [unix]
 
 requirements:
   build:
-    - m2w64-toolchain  # [win]
-  run:
-    - m2w64-gcc-libs   # [win]
+    - {{ compiler("c") }}        # [unix]
+    - {{ compiler("m2w64_c") }}  # [win]
 
 test:
   commands:
