@@ -29,7 +29,9 @@ about:
   home: https://www.gnu.org/software/make/
   license: GPLv3
   license_file: COPYING
-  summary: "GNU Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files."
+  summary: >-
+    GNU Make is a tool which controls the generation of executables and other
+    non-source files of a program from the program's source files.
   doc_url: https://www.gnu.org/software/make/manual/
 
 extra:
