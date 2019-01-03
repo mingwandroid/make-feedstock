@@ -1,4 +1,6 @@
 ./configure --prefix=$PREFIX
-make
-make check
-make install
+# bootstrap building make without make
+sh build.sh
+# make
+./make check
+./make install
