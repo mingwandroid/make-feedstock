@@ -20,7 +20,6 @@ requirements:
     - {{ compiler("c") }}        # [unix]
     - {{ compiler("m2w64_c") }}  # [win]
     - bash  # [unix]
-    - perl  # [unix]
 
 test:
   commands:
