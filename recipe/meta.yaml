@@ -17,6 +17,7 @@ build:
 
 requirements:
   build:
+    - libtool  # [unix]
     - {{ compiler("c") }}        # [unix]
     - {{ compiler("m2w64_c") }}  # [win]
     - bash  # [unix]
