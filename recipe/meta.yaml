@@ -12,14 +12,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   detect_binary_files_with_prefix: false
 
 requirements:
   build:
+    - libtool  # [unix]
     - {{ compiler("c") }}        # [unix]
     - {{ compiler("m2w64_c") }}  # [win]
     - bash  # [unix]
+    - make  # [build_platform != target_platform]
+  host:
+  run:
 
 test:
   commands:
@@ -29,7 +33,7 @@ test:
 
 about:
   home: https://www.gnu.org/software/make/
-  license: GPLv3
+  license: GPL-3.0-or-later
   license_file: COPYING
   summary: >-
     GNU Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.
