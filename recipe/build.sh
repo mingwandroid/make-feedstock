@@ -21,5 +21,7 @@ bash build.sh
 # make
 if [[ "$CONDA_BUILD_CROSS_COMPILATION" != "1" ]]; then
   ./make check
+  ./make install
+else
+  make install
 fi
-./make install
