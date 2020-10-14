@@ -22,6 +22,8 @@ requirements:
     - {{ compiler("m2w64_c") }}  # [win]
     - bash  # [unix]
     - make  # [build_platform != target_platform]
+  host:
+  run:
 
 test:
   commands:
