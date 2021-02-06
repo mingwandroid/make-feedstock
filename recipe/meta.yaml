@@ -23,6 +23,8 @@ build:
   string: h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
 {% endif %}
   detect_binary_files_with_prefix: false
+  script_env:
+    - CONDA_BUILD_BOOTSTRAPPING
 
 requirements:
   build:
