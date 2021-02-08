@@ -20,11 +20,10 @@ build:
 {% else %}
   # Keep above the number of the _bootstrapping package
   number: 1
-  string: h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
 {% endif %}
   detect_binary_files_with_prefix: false
   script_env:
-    - CONDA_BUILD_BOOTSTRAPPING
+    - BOOTSTRAPPING={{ bootstrapping }}
 
 requirements:
   build:
