@@ -28,7 +28,6 @@ requirements:
   build:
 {% if bootstrapping != 'yes' %}
     - libtool  # [unix]
-    - bash     # [unix]
 {% endif %}
     - {{ compiler("c") }}        # [unix]
     - {{ compiler("m2w64_c") }}  # [win]
